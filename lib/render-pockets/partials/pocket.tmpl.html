@@ -1,0 +1,15 @@
+<li class="pocket">
+  <h2 class="pockets">{{name}}</h2>
+  <div class="pocket-demo" id="pocket-{{sluggify name}}"></div>
+  <script>
+    (function(){
+      var shadowHost = document.getElementById('pocket-{{sluggify name}}');
+      var shadowRoot = shadowHost.createShadowRoot();
+      shadowRoot.innerHTML = '{{{oneline __content}}}' +
+                             '<style>@import url("css/main.css");</style>';
+    })();
+  </script>
+  <div class="pocket-code">
+    <pre><code>{{trim __content}}</code></pre>
+  </div>
+</li>

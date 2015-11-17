@@ -1,0 +1,14 @@
+{
+  "name": "render-pockets",
+  "version": "0.1.0",
+  "description": "Take the HTML styleguide JSON and template it up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heydon Pickering",
+  "license": "ISC",
+  "devDependencies": {
+    "handlebars": "^4.0.4"
+  }
+}

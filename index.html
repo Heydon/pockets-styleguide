@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.14/webcomponents.js"></script>
+		<link href="lib/css/pockets.css" rel="stylesheet">
+		<title>Styleguide</title>
+	</head>
+  <body class="pockets">
+		<h1>Title For Styleguide</h1>
+		<p>This is the description of my pockets thing.</p>
+		<nav role="navigation">
+			<ul>
+					<li>
+						<a href="tags/a11y">a11y</a>
+					</li>
+					<li>
+						<a href="tags/flow">flow</a>
+					</li>
+					<li>
+						<a href="tags/typography">typography</a>
+					</li>
+			</ul>
+		</nav>
+		<ul>
+				<li class="pocket">
+				  <h2 class="pockets">Headings levels</h2>
+				  <div class="pocket-demo" id="pocket-headings-levels"></div>
+				  <script>
+				    (function(){
+				      var shadowHost = document.getElementById('pocket-headings-levels');
+				      var shadowRoot = shadowHost.createShadowRoot();
+				      shadowRoot.innerHTML = '<h1>First level heading</h1><h2>Second level heading</h2><h3>Third level heading</h3><h3>Fourth level heading</h3>' +
+				                             '<style>@import url("css/main.css");</style>';
+				    })();
+				  </script>
+				  <div class="pocket-code">
+				    <pre><code>&lt;h1&gt;First level heading&lt;/h1&gt;
+				&lt;h2&gt;Second level heading&lt;/h2&gt;
+				&lt;h3&gt;Third level heading&lt;/h3&gt;
+				&lt;h3&gt;Fourth level heading&lt;/h3&gt;</code></pre>
+				  </div>
+				</li>
+				<li class="pocket">
+				  <h2 class="pockets">Single paragraph</h2>
+				  <div class="pocket-demo" id="pocket-single-paragraph"></div>
+				  <script>
+				    (function(){
+				      var shadowHost = document.getElementById('pocket-single-paragraph');
+				      var shadowRoot = shadowHost.createShadowRoot();
+				      shadowRoot.innerHTML = '<p>Lorem ipsum dolor sit amet.</p>' +
+				                             '<style>@import url("css/main.css");</style>';
+				    })();
+				  </script>
+				  <div class="pocket-code">
+				    <pre><code>&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</code></pre>
+				  </div>
+				</li>
+		</ul>
+  </body>
+</html>

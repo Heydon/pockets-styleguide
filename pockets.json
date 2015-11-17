@@ -1,0 +1,37 @@
+{
+	"pockets": [
+		{
+			"name": "Headings levels",
+			"description": "The different semantic heading levels from h1 to h4.",
+			"tags": [
+				"a11y",
+				"flow",
+				"typography"
+			],
+			"__content": "\n<h1>First level heading</h1>\n<h2>Second level heading</h2>\n<h3>Third level heading</h3>\n<h3>Fourth level heading</h3>\n"
+		},
+		{
+			"name": "Single paragraph",
+			"description": "A paragraph in isolation. It shouldn't display any smaller than 16px.",
+			"tags": [
+				"flow",
+				"typography"
+			],
+			"__content": "\n<p>Lorem ipsum dolor sit amet.</p>\n"
+		}
+	],
+	"allTags": [
+		"a11y",
+		"flow",
+		"typography"
+	],
+	"pocketsConfig": {
+		"name": "Pockets Example",
+		"updated": "17/11/2015",
+		"contributors": [
+			"Heydon Pickering",
+			"Sweep The Dog"
+		],
+		"css": "./main.css"
+	}
+}

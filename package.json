@@ -1,0 +1,36 @@
+{
+  "name": "pockets-styleguide",
+  "version": "0.1.0",
+  "description": "Node static styleguide generator using web components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node ./lib/js/compile-pockets.js",
+    "render": "node ./lib/js/render-pockets.js",
+    "build": "npm-run-all clean compile render"
+  },
+  "pockets": {
+    "name": "Pockets Example",
+    "updated": "17/11/2015",
+    "contributors": ["Heydon Pickering", "Sweep The Dog"],
+    "css": "./main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heydon/pockets-styleguide.git"
+  },
+  "keywords": [
+    "node",
+    "flexbox",
+    "styleguide"
+  ],
+  "author": "Heydon Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heydon/pockets-styleguide/issues"
+  },
+  "homepage": "https://github.com/Heydon/pockets-styleguide#readme",
+  "dependencies": {
+    "npm-run-all": "^1.2.13"
+  }
+}

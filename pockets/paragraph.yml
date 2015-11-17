@@ -1,0 +1,6 @@
+---
+name: Single paragraph
+description: A paragraph in isolation. It shouldn't display any smaller than 16px.
+tags: ['typography', 'flow']
+---
+<p>Lorem ipsum dolor sit amet.</p>

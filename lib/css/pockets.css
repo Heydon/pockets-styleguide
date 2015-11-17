@@ -1,0 +1,10 @@
+html {
+  font-size: 100%;
+  font-family: monospace;
+  color: #ccc;
+}
+
+/* stop inheritance by Shadow DOM (set on root element here) */
+.pocket-demo {
+  all: unset;
+}
