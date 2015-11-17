@@ -1,9 +1,9 @@
 ---
 name: Headings levels
 description: The different semantic heading levels from h1 to h4.
-tags: ['typography', 'a11y', 'flow'] 
+tags: ['typography', 'a11y', 'flow']
 ---
 <h1>First level heading</h1>
-<h2>Second level heading</h2>
-<h3>Third level heading</h3>
-<h3>Fourth level heading</h3>
+  <h2>Second level heading</h2>
+    <h3>Third level heading</h3>
+      <h4>Fourth level heading</h4>

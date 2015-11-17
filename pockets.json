@@ -8,7 +8,7 @@
 				"flow",
 				"typography"
 			],
-			"__content": "\n<h1>First level heading</h1>\n<h2>Second level heading</h2>\n<h3>Third level heading</h3>\n<h3>Fourth level heading</h3>\n"
+			"__content": "\n<h1>First level heading</h1>\n  <h2>Second level heading</h2>\n    <h3>Third level heading</h3>\n      <h4>Fourth level heading</h4>\n"
 		},
 		{
 			"name": "Single paragraph",

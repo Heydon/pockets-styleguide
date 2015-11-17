@@ -8,3 +8,8 @@ html {
 .pocket-demo {
   all: unset;
 }
+
+.pocket-code-pre {
+  background: #000;
+  padding: 1em;
+}
